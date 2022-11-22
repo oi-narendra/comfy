@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.narendra.comfy">
+    <uses-permission android:name="android.permission.READ_SMS" />
    <application
         android:label="comfy"
         android:name="${applicationName}"
